@@ -21,3 +21,19 @@ Initialize app
 
     python manage.py startapp [appname]
 
+### Step 4.
+Install REST Framework
+
+        pip install djangorestframework
+
+### Step 5.
+Update requirements
+
+        pip freeze > requirements.txt
+
+#### Note:
+Can recreate environment using
+
+        pip install -r requirements.txt
+
+
