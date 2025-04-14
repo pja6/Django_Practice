@@ -15,6 +15,16 @@ Set up project file
 
     django-admin startproject myproject
 
+(Optional) Activate virtual environment
+    python3 -m venv venv
+
+    source venv/bin/activate
+Your terminal prompt should now show (venv) at the beginning
+
+for w/e reason Django mysqlclient doesn't work so use
+
+pip install pymysql
+
 ### Step 3:
 
 Initialize app
